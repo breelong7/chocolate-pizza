@@ -1,11 +1,21 @@
 body {
-  margin: 50px;
+  margin-right: 180px;
+  margin-left: 180px;
+  margin-top: 20px;
 }
 
 
 .head-logo-name {
   float: left;
   padding-right: 8px;
+}
+
+#head-icon-name {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  width: 300px;
 }
 
 .head-icons {
@@ -25,12 +35,17 @@ body {
   margin-bottom: -28px;
   margin-top: -10px;
   margin-left: 10px;
+  width: 300px;
 }
 
 #blog {
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
+  width: 300px;
+}
 
+#social-icons {
+  margin-bottom: 15px;
 }
 
 #email-icon {
@@ -43,10 +58,79 @@ body {
   float: right;
 }
 
-hr{
+#hr-head {
  display:block;
  border:none;
  height:50px;
  background-image: url('img/hr-img.png');
  background-repeat: repeat-x;
+}
+
+#hr-foot {
+  display:block;
+  border:none;
+  height:50px;
+  background-image: url('img/hr-img.png');
+  background-repeat: repeat-x;
+  margin-bottom: -37px;
+}
+#footer {
+  float: left;
+  margin-left: 10px;
+  width: 480px;
+}
+
+#woman {
+  float: left;
+}
+
+#name {
+  display: inline-block;
+  margin-bottom: 33px;
+  line-height: 5px;
+  font-weight: bold;
+ 
+}
+
+#bio {
+  margin-top: -7px;
+}
+
+button {
+  background-color: brown;
+  color: white;
+  border: none;
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: rgb(99, 60, 60);
+}
+
+#hr-solid-foot {
+  margin-top: 228px;
+}
+
+#footer-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  width: 2%;
+  opacity: 0.5;
+}
+
+#footer-copyright {
+  font-size: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+  text-align: center;
+
 }
