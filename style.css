@@ -8,8 +8,14 @@ body {
   padding-right: 8px;
 }
 
-#head-icons {
+.head-icons {
   float: right;
+  padding-right: 1px;
+}
+
+.head-icons2{
+  float: right;
+
 }
 
 #delicious {
@@ -21,10 +27,26 @@ body {
   margin-left: 10px;
 }
 
+#blog {
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+
+}
+
+#email-icon {
+  padding-left: 2px;
+  float: right;
+}
+
+#rss-icon {
+  padding-left: 7px;
+  float: right;
+}
+
 hr{
  display:block;
  border:none;
- height:25px;
+ height:50px;
  background-image: url('img/hr-img.png');
  background-repeat: repeat-x;
 }
