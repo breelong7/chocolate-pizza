@@ -1,0 +1,30 @@
+body {
+  margin: 50px;
+}
+
+
+.head-logo-name {
+  float: left;
+  padding-right: 8px;
+}
+
+#head-icons {
+  float: right;
+}
+
+#delicious {
+  font-family: 'Marck Script', cursive;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: -28px;
+  margin-top: -10px;
+  margin-left: 10px;
+}
+
+hr{
+ display:block;
+ border:none;
+ height:25px;
+ background-image: url('img/hr-img.png');
+ background-repeat: repeat-x;
+}
